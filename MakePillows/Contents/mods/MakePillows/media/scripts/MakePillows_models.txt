@@ -1,0 +1,12 @@
+module MakePillows {
+    imports {
+        Base,
+    }
+
+    model PillowFluff
+    {
+        mesh = WorldItems/MakePillowsPillowFluff,
+        texture = WorldItems/MakePillowsPillowFluff,
+        scale = 0.11,
+    }
+}

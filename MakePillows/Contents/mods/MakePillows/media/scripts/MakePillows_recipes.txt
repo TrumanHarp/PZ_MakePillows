@@ -1,0 +1,45 @@
+module MakePillows {
+    imports {
+        Base,
+    }
+
+    recipe Make Pillow Stuffing
+    {
+	    keep Needle/SutureNeedle,
+	    RippedSheets=2,
+
+	    Result:PillowFluff=5,
+	    Sound:RippedSheets,
+	    Time:75,
+	    Category:Carpentry,
+	    OnGiveXP:MakePillows_XPRipFluff,
+    }
+
+    recipe Make Pillow
+    {
+        keep Needle/SutureNeedle,
+        PillowFluff=15,
+        Sheet=1,
+        Thread=1,
+
+        SkillRequired:Tailoring=1,
+        Result:Pillow,
+        Sound:PutItemInBag,
+        Time:200,
+        Category:Carpentry,
+        OnGiveXP:MakePillows_XPMakePillow,
+    }
+
+    recipe Shred Pillow
+    {
+	    Pillow,
+
+	    Result:PillowFluff=10,
+	    Sound:RippedSheets,
+	    Time:150,
+	    Category:Carpentry,
+	    OnCreate:MakePillows_GiveSheet,
+	    OnGiveXP:MakePillows_XPShredPillow,
+    }
+
+}

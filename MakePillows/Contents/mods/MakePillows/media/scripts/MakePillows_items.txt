@@ -1,0 +1,16 @@
+module MakePillows {
+    imports {
+        Base,
+    }
+
+    item PillowFluff
+    {
+        DisplayCategory     = Material,
+	    Type                = Normal,
+	    DisplayName	        = Pillow Fluff,
+	    Icon 	            = MakePillowsPillowFluff,
+	    Weight	            = 0.02,
+	    WorldStaticModel    = MakePillows.PillowFluff,
+
+    }
+}

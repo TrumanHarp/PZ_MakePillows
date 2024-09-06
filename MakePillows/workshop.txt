@@ -1,0 +1,27 @@
+version=1.1
+title=Make Pillows
+description=[h1]This mod lets you make pillows![/h1]
+description
+description=Tired and wanting to make yourself a comfy bed? Have everything you need except the pillows to make a mattress?
+description=
+description=Struggle no more! Now you can make your own DIY pillows out of some old clothing you tore up.
+description=
+description=[b]How can you make these comfy pillows?[/b]
+description=Glad you asked!
+description=
+description=To get started you must make a bunch of Pillow Fluff.
+description=You can further rip up ripped sheets to get pillow fluff. Then you need to combine a lot of pillow fluff with a sheet and some thread using a needle to get yourself a wonderful new pillow.
+description=Note: You will need a tailoring skill of 1 to be able to make pillows.
+description=
+description=You can also now rip apart pillows, resulting in a sheet and a litle pillow fluff back.
+description=Both making and ripping pillows will give you a little bit of tailoring xp.
+description=
+description=[b]Actual Recipes:[/b]
+description=[list]
+description=  [*] 2 Ripped Sheets + 0.25 Units of Thread = 5 Pillow Fluff
+description=  [*] 15 Pillow Fluff + 1 Sheet + 1 Unit of Thread = 1 Pillow (Needle or Suture Needle and Tailoring Level 1 Required)
+description=  [*] 1 Pillow = 10 Pillow Fluff + 1 Sheet
+description=[/list]
+description=
+tags=Build 41;Items;Balance;Multiplayer
+visibility=private
